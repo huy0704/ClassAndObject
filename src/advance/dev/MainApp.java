@@ -10,7 +10,7 @@ public class MainApp {
 		SinhVien arr[] = new SinhVien[10];
 		
 		for (int i = 0; i < arr.length; i++) {
-			arr[i] = new SinhVien();
+			arr[i] = new SinhVien(null, i, null, null, i);
 			System.out.println(" Nhập Sinh Viên Thứ : " + (i+1));
 			arr[i].name = sc.nextLine();
 			arr[i].old = sc.nextInt();
